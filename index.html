@@ -6,79 +6,80 @@
 	<title>Document</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="css/reset.css" rel="stylesheet">	
 	<link href="css/style.css" rel="stylesheet">	
 </head>
 <body>
 	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md">
-					<nav class="topnav" id="topnav">
-						<a class="logo" href="#">
-							<img src="img/logo_header.png" alt="logo">
-						</a>
-						<ul class="menu-header">
-							<li class="menu-item">
-								<a href="#">О нас</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">Наши салоны</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">Прейскурант</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">Обучение</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">Подарочные сертификаты</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">Фотогалерея</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">Акции</a>
-							</li>
-						</ul>
-						<div class="menu-burger">
-							<span></span>
-						</div>
-					</nav>
-				</div>
-			</div>
-			<div class="row header__text">
-				<div class="col-md-9 d-flex justify-content-between align-items-center">
-					<div class="header-vline"></div>
-					<div class="header__title-container">
-						<h1 class="header__title">Красота, вдохновленная реальной жизнью</h1>
-						<div class="header__btn-wrap">
-							<a class="btn-light btn-bpadding" href="#">Записаться</a>
-							<a class="btn-transparent btn-border-light btn-about" href="#">о нас</a>
-						</div>
-					</div>
+		<div class="container">	
+			<div class="menu-burger">
+				<span></span>
+			</div>	
+			<nav class="topnav" id="topnav">
+				<a class="logo" href="#">
+					<img src="img/logo_header.png" alt="logo">
+				</a>
+				<ul class="menu-header">
+					<li class="menu-item">
+						<a href="#">О нас</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Наши салоны</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Прейскурант</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Обучение</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Подарочные сертификаты</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Фотогалерея</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Акции</a>
+					</li>
+				</ul>
+				
+			</nav>	
 
-				</div>
-			</div>
 
+			
+			<h1 class="header__title">Красота, вдохновленная реальной жизнью</h1>		
+
+			<div class="button-signup">	
+				<a class="btn-light btn-bpadding" href="#">Записаться</a>
+			</div>
+			<div class="button-about">
+				<a class="btn-transparent btn-border-light btn-about" href="#">о&nbspнас</a>
+			</div>	
 		</div>
+		<div class="container be-relative">
 
+			<div class="header-vline"></div>
+		</div>
+		
+		
 	</header>
 
 	<section class="first-post">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-7 col-sm-12">
+			<div class="first-post__sides">
+				<div class="first-post__left-side">
 					<h3 class="first-post__title">
 						Семья - это маленький мир, созданный любовью
 					</h3>
-					<div class="first-post__img-sm d-md-none d-sm-block"></div>
+					
+						<img class="first-post__img-small" src="img/photo1small.png" alt="photo1small">
+					
 					<p class="first-post__description">
 						Любовь к работе - это главное, что помогает нам двигаться вперед.<br><br>Основная цель - предоставить нашим клиентам профессиональный уход и услуги высочайшего качества.<br><br>Наслаждайтесь каждым моментом своего драгоценного времени и побалуйте себя.
 					</p>
 				</div>
-				<div class="col-md-5 d-md-block d-sm-none first-post__img-md">
+				<div class="first-post__right-side">
 					<img src="img/photo1.png" alt="photo1">
 				</div>
 			</div>
@@ -87,125 +88,114 @@
 
 	
 	<section class="second-post">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5 d-md-block d-sm-none second-post__img-md">
-					<div class="second-post__img"></div>					 
-				</div>
-				<div class="col-md-7 col-sm-12">
+		<div class="container">	
+			<div class="second-post__sides">
+				<div class="second-post__left-side">
+					<div class="second-post__img"></div>	
+				</div>	
+				<div class="second-post__right-side">
 					<h3 class="second-post__title">
 						У красоты множество лиц
 					</h3>
-					<div class="second-post__img-sm d-md-none d-sm-block"></div>
+					
+						<img class="second-post__img-small" src="img/photo2.png" alt="photo2">
+					
 					<p class="second-post__description">
 						Любовь к работе - это главное, что помогает нам двигаться вперед.<br><br>Основная цель - предоставить нашим клиентам услуги высочайшего качества. Мы верим, что уютная атмосфера в салоне Шевелюра и профессионализм наших сотрудников помогут каждому клиенту уехать с уникальным опытом и роскошными услугами
 					</p>
 				</div>
-					
 			</div>
 		</div>
 	</section>
 	<section class="third-post">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-sm-12 d-md-block d-sm-none third-post__img-md">
-					
+			<div class="third-post__sides">
+				<div class="third-post__left-side">
+					<div class="third-post__img"></div>	
 				</div>
-				<div class="col-md-6 col-sm-12 third-post__text-container">
-					<h3 class="third-post__title">
-						С невероятной заботой к каждому клиенту
-					</h3>
-					<div class="third-post__img-sm d-md-none d-sm-block"></div>
-					<div class="third-post__description">
-						Мы верим, что уютная атмосфера в салоне Шевелюра и профессионализм наших сотрудников помогут каждому клиенту уехать с уникальным опытом и роскошными услугами.
-					</div>
-					<div class="third-post__ps">
-						С любовью!<br>Виолетта, основатель салона.
-					</div>
-					<img class="third-post__signature" src="img/signature.png" alt="signature">
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<section class="instagram">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<h2 class="instagram__title">
-						Мы в Instagram
-					</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 filter thumb">
-					<img src="img/instaphoto1.png" alt="instaphoto1" class="img-fluid">
-				</div>
-				<div class="col-md-4 filter thumb">
-					<img src="img/instaphoto2.png" alt="instaphoto2" class="img-fluid">
-				</div>
-				<div class="col-md-4 filter thumb">
-					<img src="img/instaphoto3.png" alt="instaphoto3" class="img-fluid">
+				<div class="third-post__right-side">
+					<div class="third-post__text-wrap">
+						<div class="third-post__text-container container-top">
+							<h3 class="third-post__title">
+								С невероятной заботой к каждому клиенту
+							</h3>
+						</div>
+						<div class="third-post__text-container container-bottom">
+							
+								<img class="third-post__img-small" src="img/photo3.png" alt="photo1">
+							
+							<div class="third-post__description">
+								Мы верим, что уютная атмосфера в салоне Шевелюра и профессионализм наших сотрудников помогут каждому клиенту уехать с уникальным опытом и роскошными услугами.
+							</div>
+							<div class="third-post__ps">
+								С любовью!<br>Виолетта, основатель салона.
+							</div>
+							<div class="third-post__signature">
+								<img src="img/signature.png" alt="signature">
+							</div>
+						</div>
+					</div>	
 				</div>
 			</div>	
-			<div class="row">
-				<div class="col-md-4 filter thumb">
-					<img src="img/instaphoto3.png" alt="instaphoto3" class="img-fluid">
-				</div>
-				<div class="col-md-4 filter thumb">
-					<img src="img/instaphoto1.png" alt="instaphoto1" class="img-fluid">
-				</div>
-				<div class="col-md-4 filter thumb">
-					<img src="img/instaphoto2.png" alt="instaphoto2" class="img-fluid">
-				</div>
-			</div>
 		</div>
-		
 	</section>
 
+	<section class="instagram">
+		<div class="container">
+			<h2 class="instagram__title">
+				Мы в Instagram
+			</h2>
+				<a class="instagram__name" href="#">
+					<img class="instagram__logo" src="img/logo_insta.png" alt="logo_insta">
+					<p class="instagram__name-text">salonshevelyurra</p>
+				</a>
+			<div class="instagram__pictures">
+				<img class="instagram__pic" src="img/instaphoto1.png" alt="instaphoto1" class="img-fluid">
+				<img class="instagram__pic" src="img/instaphoto2.png" alt="instaphoto2" class="img-fluid">
+				<img class="instagram__pic" src="img/instaphoto3.png" alt="instaphoto3" class="img-fluid">
+				<img class="instagram__pic" src="img/instaphoto3.png" alt="instaphoto3" class="img-fluid">
+				<img class="instagram__pic" src="img/instaphoto1.png" alt="instaphoto1" class="img-fluid">
+				<img class="instagram__pic" src="img/instaphoto2.png" alt="instaphoto2" class="img-fluid">
+			</div>	
+		</div>	
+	</section>
 	<div class="insta-btn">
 		<a class="btn-dark btn-bpadding" href="#">открыть профиль</a>
 	</div>
-
-
-
-
 	<footer class="footer">
 		<div class="container">
-			<div class="row footer__wrap d-flex align-items-center">
-				<div class="col-md-3">
-					<a class="logo-footer" href="#">
-						<img src="img/logo_footer.png" alt="logo">
-					</a>	
-				</div>
-				<div class="col-md-4">
-					<ul class="footer__menu d-flex flex-md-column flex-wrap align-content-between">
-						<li class="item">О нас</li>
-						<li class="item">Наши салоны</li>
-						<li class="item">Прейскурант</li>
-						<li class="item">Акции</li>
-						<li class="item">Записаться на процедуру</li>
-						<li class="item">Подарочные сертификаты</li>
-						<li class="item">Фотогалерея</li>
-						<li class="item">Обучение</li>
-					</ul>
-					
-				</div>
-				<div class="col-md-3">
-					<div class="footer__btn d-flex justify-content-center ">
+			<div class="footer__wrap">			
+				<a class="logo-footer" href="#">
+					<img src="img/logo_footer.png" alt="logo">
+				</a>	
+
+				<ul class="footer__menu">
+					<li class="item">О нас</li>
+					<li class="item">Наши салоны</li>
+					<li class="item">Прейскурант</li>
+					<li class="item">Акции</li>
+					<li class="item">Записаться на процедуру</li>
+					<li class="item">Подарочные сертификаты</li>
+					<li class="item">Фотогалерея</li>
+					<li class="item">Обучение</li>
+				</ul>
+
+				<div class="footer__social-wrap">
+					<div class="footer__btn">
 						<a class="btn-light btn-bpadding" href="#">связаться с нами</a>
 					</div>
-
 					<div class="footer__social">
-						<p class="footer__socia-title text-center">Наши социальные сети</p>
-						<ul class="footer__social-icons d-flex justify-content-around">
+						<p class="footer__social-title">Наши социальные сети</p>
+						<ul class="footer__social-icons">
 							<li class="item"><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li class="item"><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
 							<li class="item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
-					</div>
+					</div>	
+					
 				</div>
-				<div class="col-md-2">
+				
+				<div class="footer__contact-wrap">
 					<div class="footer__contact-container contact-numbers">
 						<div class="footer__contact-title">Телефоны</div>
 						<div class="footer__contact-text">8(8888)888888</div>
@@ -214,20 +204,16 @@
 					<div class="footer__contact-container">
 						<div class="footer__contact-title">Режим работы</div>
 						<div class="footer__contact-text">с 9:00 - 20:00</div>
-					</div>
-				</div>
+					</div>					
+				</div>	
+								
 			</div>
 		</div>
 		
 	</footer>
-	
-
-
-
 
 
 	<script src="js/jquery-3.5.1.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
