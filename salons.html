@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="css/reset.css" rel="stylesheet">	
+	<link href="css/style-salons.css" rel="stylesheet">	
+</head>
+<body>
+
+	<div class="form" style="display: none; max-width: 500px;" id="contact-form">
+		<form class="form__body">
+			<input type="hidden" name="project_name" value="Сайт ШЕВЕЛЮРА">
+			<input type="hidden" name="admin_email" value="alex_kuz84@mail.ru">
+			<input type="hidden" name="form_subject" value="Форма с Header">
+
+			<div class="form__logo">
+				<img src="img/logo_footer.png" alt="logo">				
+			</div>
+			<div class="form__item">
+				<!-- <label class="form__label" for="formName">Имя*:</label> -->
+				<input class="form__input" id="formName" type="text" name="name" placeholder="Ваше имя" required>
+			</div>
+			<div class="form__item">
+				<!-- <label class="form__label" for="formEmail">Email:</label> -->
+				<input class="form__input" id="formEmail" type="text" name="email" placeholder="Ваш email">
+			</div>
+			<div class="form__item">
+				<!-- <label class="form__label" for="formPhone">Номер телефона*:</label> -->
+				<input class="form__input" id="formPhone" type="text" name="phone" placeholder="Ваш  номер телефона" required>
+			</div>
+			<button class="form__btn">Отправить</button>			
+		</form>
+	</div>
+
+
+	<header class="header-white">
+		<div class="container">		
+			<div class="menu-burger">
+				<span></span>
+			</div>
+			<nav class="topnav" id="topnav">
+				<a class="logo" href="#">
+					<img src="img/logo_header-second.png" alt="logo-second">
+				</a>
+				<ul class="menu-header">
+					<li class="menu-item">
+						<a href="index.html">О нас</a>
+					</li>
+					<li class="menu-item">
+						<a class="active" href="salons.html">Наши салоны</a>
+					</li>
+					<li class="menu-item">
+						<a href="price.html">Прейскурант</a>
+					</li>
+					<li class="menu-item">
+						<a href="education.html">Обучение</a>
+					</li>
+					<li class="menu-item">
+						<a href="certificate.html">Подарочные сертификаты</a>
+					</li>
+					<li class="menu-item">
+						<a href="photogallery.html">Фотогалерея</a>
+					</li>
+					<li class="menu-item">
+						<a href="stock.html">Акции</a>
+					</li>
+				</ul>
+			</nav>				
+		</div>
+	</header>
+
+	<section class="salons">
+		<div class="container">
+			<div class="salons__sides">
+				<div class="salons__salon">
+					<div class="salon__img">
+						<img src="img/salon1.png" alt="salon1">
+					</div>
+					<div class="salons__title-container">
+						<h1 class="salons__title">Салон на улице Горького</h1>
+					</div>
+					<div class="salons__img-small">
+						<img src="img/salon1small.png" alt="salon1small">
+					</div>
+
+					<div class="salons__info-container">
+
+						<p class="salons__description">
+							Любовь к работе - это главное, что помогает нам двигаться вперед. Основная цель - предоставить нашим клиентам профессиональный уход и услуги высочайшего качества.
+						</p>
+						<div class="salons__contact">
+							<div class="salons__contact-title">
+								Адрес:
+							</div>
+							<div class="salons__address-description">
+								город Калининград, улица Горького
+							</div>	
+						</div>
+						<div class="salons__contact">
+							<div class="salons__contact-title">
+								Телефоны:
+							</div>
+							<div class="salons__address-description">
+								8 (4012) 790908, 89114840506
+							</div>	
+						</div>
+						<div class="salons__buttons">
+							<div class="button-signup">	
+								<a class="btn-dark btn-bpadding" href="#contact-form" data-fancybox>Записаться на процедуру</a>
+							</div>
+							<div class="button-about">
+								<a class="btn-light btn-border-dark btn-bpadding" href="salon.html">открыть карточку салона</a>
+							</div>							
+						</div>
+							
+					</div>
+				</div>
+				<div class="salons__salon">
+					<div class="salon__img">
+						<img src="img/salon2.png" alt="salon2">
+					</div>
+					<div class="salons__title-container">
+						<h1 class="salons__title">Салон на улице Челнокова</h1>
+					</div>
+					<div class="salons__img-small">
+						<img src="img/salon2small.png" alt="salon1small">
+					</div>
+					<div class="salons__info-container">
+						<p class="salons__description">Основная цель - предоставить нашим клиентам услуги высочайшего качества. Мы верим, что уютная атмосфера в салоне Шевелюра помогут Вам найти то, что Вы искали!
+						</p>
+						<div class="salons__contact">
+							<div class="salons__contact-title">
+								Адрес:
+							</div>
+							<div class="salons__address-description">
+								город Калининград, улица Челнокова
+							</div>	
+						</div>
+						<div class="salons__contact">
+							<div class="salons__contact-title">
+								Телефоны:
+							</div>
+							<div class="salons__address-description">
+								8 (4012) 790908, 89114840506
+							</div>	
+						</div>
+
+						<div class="salons__buttons">
+							<div class="button-signup">	
+								<a class="btn-dark btn-bpadding" href="#contact-form" data-fancybox>Записаться на процедуру</a>
+							</div>
+							<div class="button-about">
+								<a class="btn-light btn-border-dark btn-bpadding" href="#">открыть карточку салона</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrap">			
+				<a class="logo-footer" href="#">
+					<img src="img/logo_footer.png" alt="logo">
+				</a>	
+
+				<ul class="footer__menu">
+					<li class="item">О нас</li>
+					<li class="item">Наши салоны</li>
+					<li class="item">Прейскурант</li>
+					<li class="item">Акции</li>
+					<li class="item">Записаться на процедуру</li>
+					<li class="item">Подарочные сертификаты</li>
+					<li class="item">Фотогалерея</li>
+					<li class="item">Обучение</li>
+				</ul>
+
+				<div class="footer__social-wrap">
+					<div class="footer__btn d-flex justify-content-center ">
+						<a class="btn-light btn-bpadding" href="#contact-form" data-fancybox>связаться с нами</a>
+					</div>
+					<div class="footer__social">
+						<p class="footer__social-title">Наши социальные сети</p>
+						<ul class="footer__social-icons">
+							<li class="item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li class="item"><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+							<li class="item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>	
+					
+				</div>
+				
+				<div class="footer__contact-wrap">
+					<div class="footer__contact-container contact-numbers">
+						<div class="footer__contact-title">Телефоны</div>
+						<div class="footer__contact-text">8(8888)888888</div>
+						<div class="footer__contact-text">8(8888)999999</div>
+					</div>
+					<div class="footer__contact-container">
+						<div class="footer__contact-title">Режим работы</div>
+						<div class="footer__contact-text">с 9:00 - 20:00</div>
+					</div>					
+				</div>	
+								
+			</div>
+		</div>
+		
+	</footer>
+
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>	
+	<script src="js/main.js"></script>
+</body>
+</html>

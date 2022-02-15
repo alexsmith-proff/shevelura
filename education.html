@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="css/reset.css" rel="stylesheet">	
+	<link href="css/style-education.css" rel="stylesheet">	
+</head>
+<body>
+
+	<div class="form" style="display: none; max-width: 500px;" id="contact-form">
+		<form class="form__body">
+			<input type="hidden" name="project_name" value="Сайт ШЕВЕЛЮРА">
+			<input type="hidden" name="admin_email" value="alex_kuz84@mail.ru">
+			<input type="hidden" name="form_subject" value="Форма с Header">
+
+			<div class="form__logo">
+				<img src="img/logo_footer.png" alt="logo">				
+			</div>
+			<div class="form__item">
+				<!-- <label class="form__label" for="formName">Имя*:</label> -->
+				<input class="form__input" id="formName" type="text" name="name" placeholder="Ваше имя" required>
+			</div>
+			<div class="form__item">
+				<!-- <label class="form__label" for="formEmail">Email:</label> -->
+				<input class="form__input" id="formEmail" type="text" name="email" placeholder="Ваш email">
+			</div>
+			<div class="form__item">
+				<!-- <label class="form__label" for="formPhone">Номер телефона*:</label> -->
+				<input class="form__input" id="formPhone" type="text" name="phone" placeholder="Ваш  номер телефона" required>
+			</div>
+			<button class="form__btn">Отправить</button>			
+		</form>
+	</div>
+
+	
+	<header class="header-white">
+		<div class="container">		
+			<div class="menu-burger">
+				<span></span>
+			</div>
+			<nav class="topnav" id="topnav">
+				<a class="logo" href="#">
+					<img src="img/logo_header-second.png" alt="logo-second">
+				</a>
+				<ul class="menu-header">
+					<li class="menu-item">
+						<a href="index.html">О нас</a>
+					</li>
+					<li class="menu-item">
+						<a href="salons.html">Наши салоны</a>
+					</li>
+					<li class="menu-item">
+						<a href="price.html">Прейскурант</a>
+					</li>
+					<li class="menu-item">
+						<a class="active" href="education.html">Обучение</a>
+					</li>
+					<li class="menu-item">
+						<a href="certificate.html">Подарочные сертификаты</a>
+					</li>
+					<li class="menu-item">
+						<a href="photogallery.html">Фотогалерея</a>
+					</li>
+					<li class="menu-item">
+						<a href="stock.html">Акции</a>
+					</li>
+				</ul>
+			</nav>				
+		</div>
+	</header>
+
+	<section class="education_header">
+		<div class="container">
+			<h2 class="education_header__title">Обучение</h2>
+			<div class="education_header__description">Салон красоты «Шевелюра» проводит обучение в нескольких направлениях. Купив курс, вы получаете комплексное обучение с гибким графиком и сертификат, о прохождении курса.</div>
+		</div>		
+	</section>
+
+
+	<section class="education">
+		<div class="container">
+			<h3 class="education__title">Курсы по направлениям</h3>
+			<div class="education__list">
+				<ul class="education__list_left">
+					<li class="education__item">
+						<div class="education_item_container">
+							<h1 class="education__item_name_mobile">Базовый курс по макияжу</h1>
+							<div class="education__item_name_wrap">
+								<h1 class="education__item_name">Базовый курс по макияжу</h1>
+								<img class="education__item_img" src="img/plus.png" alt="plus">
+							</div>
+							<div class="education__item_toggle_wrap">
+								<div class="education__item_title">Описание:</div>	
+								<div class="education__item_description">Базовые курсы визажа помогут вам постичь азы этой интересной профессии, окунуться в прекрасный мир ярких образов, гармонии и красоты. Так, как 80% курса составляют практические занятия, вы уже после первых дней обучения смело сможете предлагать свои услуги подругам, а после окончания курса развиваться в других, более узких направлениях make-up: дневной, вечерний, подиум, фешн или бьюти.
+								Для обучения не требуется специальная подготовка! График обучения составляется индивидуально с каждым студентом.</div>				
+								<div class="education__item_title">Длительность курса:</div>
+								<div class="education__item_description">40 академических часов</div>
+								<div class="education__item_title">Стоимость курса</div>
+								<div class="education__item_description">10000 руб. вместо 20000 руб. — индивидуальное обучение.
+								6000 руб. вместо 12000 руб. — обучение в группе (2-3 человека) Расходные материалы и косметика предоставляются школой.</div>
+								<div class="education__subitem_btn button-signup">	
+									<a class="btn-dark btn-bpadding" href="#contact-form" data-fancybox>Записаться на курс</a>
+								</div>
+							</div>		
+							<div class="education__item_link" href="#">Подробнее</div>						
+						</div>
+					</li>	
+
+					<li class="education__item">
+						<div class="education_item_container">
+							<h1 class="education__item_name_mobile">Специальные предложения</h1>
+							<div class="education__item_name_wrap">
+								<h1 class="education__item_name">Специальные предложения</h1>
+								<img class="education__item_img" src="img/plus.png" alt="plus">
+							</div>
+							<div class="education__item_toggle_wrap">
+								<div class="education__item_title">Описание:</div>	
+								<div class="education__item_description">Базовые курсы визажа помогут вам постичь азы этой интересной профессии, окунуться в прекрасный мир ярких образов, гармонии и красоты. Так, как 80% курса составляют практические занятия, вы уже после первых дней обучения смело сможете предлагать свои услуги подругам, а после окончания курса развиваться в других, более узких направлениях make-up: дневной, вечерний, подиум, фешн или бьюти.
+								Для обучения не требуется специальная подготовка! График обучения составляется индивидуально с каждым студентом.</div>				
+								<div class="education__item_title">Длительность курса:</div>
+								<div class="education__item_description">40 академических часов</div>
+								<div class="education__item_title">Стоимость курса</div>
+								<div class="education__item_description">10000 руб. вместо 20000 руб. — индивидуальное обучение.
+								6000 руб. вместо 12000 руб. — обучение в группе (2-3 человека) Расходные материалы и косметика предоставляются школой.</div>
+								<div class="education__subitem_btn button-signup">	
+									<a class="btn-dark btn-bpadding" href="#contact-form" data-fancybox>Записаться на курс</a>
+								</div>
+							</div>		
+							<div class="education__item_link" href="#">Подробнее</div>						
+						</div>
+					</li>				
+				</ul>
+
+
+				<ul class="education__list_right">
+					<li class="education__item">
+						<div class="education_item_container">
+							<h1 class="education__item_name_mobile">Курс наращивания ресниц</h1>
+							<div class="education__item_name_wrap">
+								<h1 class="education__item_name">Курс наращивания ресниц</h1>
+								<img class="education__item_img" src="img/plus.png" alt="plus">
+							</div>
+							<div class="education__item_toggle_wrap">
+								<div class="education__item_title">Описание:</div>	
+								<div class="education__item_description">Базовые курсы визажа помогут вам постичь азы этой интересной профессии, окунуться в прекрасный мир ярких образов, гармонии и красоты. Так, как 80% курса составляют практические занятия, вы уже после первых дней обучения смело сможете предлагать свои услуги подругам, а после окончания курса развиваться в других, более узких направлениях make-up: дневной, вечерний, подиум, фешн или бьюти.
+								Для обучения не требуется специальная подготовка! График обучения составляется индивидуально с каждым студентом.</div>				
+								<div class="education__item_title">Длительность курса:</div>
+								<div class="education__item_description">40 академических часов</div>
+								<div class="education__item_title">Стоимость курса</div>
+								<div class="education__item_description">10000 руб. вместо 20000 руб. — индивидуальное обучение.
+								6000 руб. вместо 12000 руб. — обучение в группе (2-3 человека) Расходные материалы и косметика предоставляются школой.</div>
+								<div class="education__subitem_btn button-signup">	
+									<a class="btn-dark btn-bpadding" href="#contact-form" data-fancybox>Записаться на курс</a>
+								</div>
+							</div>		
+							<div class="education__item_link" href="#">Подробнее</div>						
+						</div>
+					</li>	
+
+					<li class="education__item">
+						<div class="education_item_container">
+							<h1 class="education__item_name_mobile">Шугаринг или сахарная эпиляция</h1>
+							<div class="education__item_name_wrap">
+								<h1 class="education__item_name">Шугаринг или сахарная эпиляция</h1>
+								<img class="education__item_img" src="img/plus.png" alt="plus">
+							</div>
+							<div class="education__item_toggle_wrap">
+								<div class="education__item_title">Описание:</div>	
+								<div class="education__item_description">Базовые курсы визажа помогут вам постичь азы этой интересной профессии, окунуться в прекрасный мир ярких образов, гармонии и красоты. Так, как 80% курса составляют практические занятия, вы уже после первых дней обучения смело сможете предлагать свои услуги подругам, а после окончания курса развиваться в других, более узких направлениях make-up: дневной, вечерний, подиум, фешн или бьюти.
+								Для обучения не требуется специальная подготовка! График обучения составляется индивидуально с каждым студентом.</div>				
+								<div class="education__item_title">Длительность курса:</div>
+								<div class="education__item_description">40 академических часов</div>
+								<div class="education__item_title">Стоимость курса</div>
+								<div class="education__item_description">10000 руб. вместо 20000 руб. — индивидуальное обучение.
+								6000 руб. вместо 12000 руб. — обучение в группе (2-3 человека) Расходные материалы и косметика предоставляются школой.</div>
+								<div class="education__subitem_btn button-signup">	
+									<a class="btn-dark btn-bpadding" href="#contact-form" data-fancybox>Записаться на курс</a>
+								</div>
+							</div>		
+							<div class="education__item_link" href="#">Подробнее</div>						
+						</div>
+					</li>	
+				</ul>				
+			</div>
+		</div>
+	</section>
+
+
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrap">			
+				<a class="logo-footer" href="#">
+					<img src="img/logo_footer.png" alt="logo">
+				</a>	
+
+				<ul class="footer__menu">
+					<li class="item">О нас</li>
+					<li class="item">Наши салоны</li>
+					<li class="item">Прейскурант</li>
+					<li class="item">Акции</li>
+					<li class="item">Записаться на процедуру</li>
+					<li class="item">Подарочные сертификаты</li>
+					<li class="item">Фотогалерея</li>
+					<li class="item">Обучение</li>
+				</ul>
+
+				<div class="footer__social-wrap">
+					<div class="footer__btn">
+						<a class="btn-light btn-bpadding" href="#contact-form" data-fancybox>связаться с нами</a>
+					</div>
+					<div class="footer__social">
+						<p class="footer__social-title">Наши социальные сети</p>
+						<ul class="footer__social-icons">
+							<li class="item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li class="item"><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+							<li class="item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>	
+					
+				</div>
+				
+				<div class="footer__contact-wrap">
+					<div class="footer__contact-container contact-numbers">
+						<div class="footer__contact-title">Телефоны</div>
+						<div class="footer__contact-text">8(8888)888888</div>
+						<div class="footer__contact-text">8(8888)999999</div>
+					</div>
+					<div class="footer__contact-container">
+						<div class="footer__contact-title">Режим работы</div>
+						<div class="footer__contact-text">с 9:00 - 20:00</div>
+					</div>					
+				</div>	
+								
+			</div>
+		</div>
+		
+	</footer>
+
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>	
+	<script src="js/main.js"></script>
+</body>
+</html>
